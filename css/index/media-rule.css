@@ -1,0 +1,147 @@
+/* X-Small devices (portrait phones, less than 576px)
+No media query for `xs` since this is the default in Bootstrap */
+body{
+    background-color: #222222;
+    color: white;
+}
+:root{
+    --logo-size: 100px;
+    --circle-image: 100px;
+    --square-image: 200px;
+
+    --portrait-image-width: 125px;
+    --portrait-image-height: 225px;
+
+    --landscape-image-width: 150px;
+    --landscape-image-height: 100px;
+}
+.media-flex{
+    flex-direction: column;
+}
+.first-content-circle-image{
+    position: absolute;
+    bottom: 15%;
+    right: -15%;
+}
+.text-limit{
+    width: 90%;
+}
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    body{background-color: blue;}
+    :root{
+        --logo-size: 75px;
+        --circle-image: 125px;
+        --square-image: 275px;
+        
+        --portrait-image-width: 175px;
+        --portrait-image-height: 275px;
+    
+        --landscape-image-width: 275px;
+        --landscape-image-height: 125px;
+
+    }
+    .media-flex{
+        flex-direction: column;
+    }
+    .first-content-circle-image{
+        position: absolute;
+        bottom: 15%;
+        right: -15%;
+    }
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    body{background-color: red;}
+    :root{
+        --logo-size: 75px;
+        --circle-image: 125px;
+        --square-image: 300px;
+
+        --portrait-image-width: 200px;
+        --portrait-image-height: 300px;
+    
+        --landscape-image-width: 300px;
+        --landscape-image-height: 150px;
+    }
+    .media-flex{
+        flex-direction: column;
+    }
+    .first-content-circle-image{
+        position: absolute;
+        bottom: 15%;
+        right: -15%;
+    }
+}
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    body{background-color: pink;}
+    :root{
+        --logo-size: 100px;
+        --circle-image: 175px;
+        --square-image: 400px;
+
+        --portrait-image-width: 225px;
+        --portrait-image-height: 350px;
+    
+        --landscape-image-width: 325px;
+        --landscape-image-height: 175px;
+    }
+    .media-flex{
+        flex-direction: row;
+    }
+    .first-content-circle-image{
+        position: absolute;
+        bottom: 5%;
+        right: -10%;
+    }
+}
+/* X-Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    body{background-color: green;}
+    :root{
+        --logo-size: 100px;
+        --circle-image: 185.5px;
+        --square-image: 485.5px;
+
+        --portrait-image-width: 250px;
+        --portrait-image-height: 400px;
+    
+        --landscape-image-width: 350px;
+        --landscape-image-height: 200px;
+    }
+    .media-flex{
+        flex-direction: row;
+    }
+    .first-content-circle-image{
+        position: absolute;
+        bottom: -50px;
+        right: -50px;
+    }
+}
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    body{background-color: yellow;}
+    :root{
+        --logo-size: 100px;
+        --circle-image: 200px;
+        --square-image: 500px;
+
+        --portrait-image-width: 275px;
+        --portrait-image-height: 475px;
+    
+        --landscape-image-width: 375px;
+        --landscape-image-height: 225px;
+    }
+    .media-flex{
+        flex-direction: row;
+    }
+    .first-content-circle-image{
+        position: absolute;
+        bottom: -50px;
+        right: -50px;
+    }
+    .text-limit{
+        width: 80%;
+    }
+}

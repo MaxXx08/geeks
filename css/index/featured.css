@@ -1,0 +1,85 @@
+.featured-products{
+    margin-top: 20px;
+}
+.featured-design{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    width: 90%;
+}
+.featured-name{
+    margin: 0 30px;
+    white-space: nowrap;
+}
+.featured-name > h1{
+    font-family: 'Great Vibes', cursive;
+}
+.featured-line{
+    width: 100%;
+    height: 5px;
+    background-color: #954535;
+}
+.featured{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 100%;
+
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+.featured::-webkit-scrollbar{
+    height: auto;
+}
+.featured::-webkit-scrollbar-track{
+    background-color: #C0BFC2;
+    
+}
+.featured::-webkit-scrollbar-thumb{
+    background-color: grey;
+}
+.featured-group{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: auto;
+    justify-content: center;
+    gap: 20px;
+}
+.featured-content > img{
+    max-width: 300px;
+    min-width: 100px;
+    inline-size: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;    
+    margin: auto;
+}
+.featured-content > p{
+    text-align: center;
+    text-transform: uppercase;
+}
+.featured-content{
+    display: grid;
+    grid-auto-flow: row;
+    grid-auto-columns: 100%;
+}
+.snapping-carousel{
+    scroll-snap-type: inline mandatory;
+}
+
+.snapping-carousel > *{
+    scroll-snap-align: start;
+}
+.featured-content > img{
+    transition:.2s;
+}
+.featured-content > img:hover{
+    transform: scale(1.05, 1.05);
+    /* box-shadow: 0 0 20px 0 black; 11/29/22*/
+}
+.featured-product-name{
+    transition: .2s;
+}
+.featured-content > img:hover ~ .featured-product-name{
+    font-weight: 700;
+}

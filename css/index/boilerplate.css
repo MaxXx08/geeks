@@ -1,0 +1,15 @@
+:root{
+    --logo-size: 100px;
+    --circle-image: 200px;
+    --square-image: 500px;
+}
+body{
+    position: relative;
+}
+*{
+    box-sizing: border-box;
+}
+.text-justify{
+    text-align: justify;
+    text-justify: inter-word;
+}
