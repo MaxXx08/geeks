@@ -28,7 +28,7 @@ body{
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
-    body{background-color: blue;}
+    /* body{background-color: blue;} */
     :root{
         --logo-size: 75px;
         --circle-image: 125px;
@@ -52,7 +52,7 @@ body{
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    body{background-color: red;}
+    /* body{background-color: red;} */
     :root{
         --logo-size: 75px;
         --circle-image: 125px;
@@ -75,7 +75,7 @@ body{
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    body{background-color: pink;}
+    /* body{background-color: pink;} */
     :root{
         --logo-size: 100px;
         --circle-image: 175px;
@@ -98,7 +98,7 @@ body{
 }
 /* X-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-    body{background-color: green;}
+    /* body{background-color: green;} */
     :root{
         --logo-size: 100px;
         --circle-image: 185.5px;
@@ -121,7 +121,7 @@ body{
 }
 /* XX-Large devices (larger desktops, 1400px and up) */
 @media (min-width: 1400px) {
-    body{background-color: yellow;}
+    /* body{background-color: yellow;} */
     :root{
         --logo-size: 100px;
         --circle-image: 200px;
