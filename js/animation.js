@@ -1,16 +1,23 @@
 const fadeInSlideUp = document.querySelectorAll(".fade-in-slide-up");
+const headerBorderAnimation = document.querySelectorAll(".header-border-animation");
 
 document.addEventListener("scroll", ()=>{
     fadeInSlideUp.forEach((fadeInSlideUps)=>{
         let clientHeight = document.documentElement.clientHeight;
         let fadeInSlideUpY = fadeInSlideUps.getBoundingClientRect().y;
         let fadeInSlideUpHeight = fadeInSlideUps.getBoundingClientRect().height;
-        console.log(clientHeight > fadeInSlideUpY)
         
-        // console.log(clientHeight, fadeInSlideUp)
         if(clientHeight > fadeInSlideUpY + fadeInSlideUpHeight * 2/3){
             fadeInSlideUps.style.animation = "fade-in-slide-up .5s forwards ease";
         }
     })
-    
+    headerBorderAnimation.forEach((headerBorderAnimations)=>{
+        let clientHeight = document.documentElement.clientHeight;
+        let headerBorderAnimationY = headerBorderAnimations.getBoundingClientRect().y;
+        let headerBorderAnimationHeight = headerBorderAnimations.getBoundingClientRect().height;
+        
+        if(clientHeight > headerBorderAnimationY + headerBorderAnimationHeight * 2/3){
+            headerBorderAnimations.style.animation = "header-border-animation 1s .2s forwards ease";
+        }
+    })
 })

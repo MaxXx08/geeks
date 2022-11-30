@@ -2,6 +2,18 @@
     opacity: 0;
     transform: translateY(100px);
 }
+.header-border-animation{
+    opacity: 0;
+    transform: translateX(100px);
+}
+@keyframes header-border-animation {
+    to{
+        opacity: 1;
+        transform: translateX(0);
+        border-bottom: 1px solid white;
+    }
+}
+
 @keyframes fade-in-slide-up{
     to{
         opacity: 1;
