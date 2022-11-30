@@ -34,11 +34,11 @@
     height: 5px;
 }
 .featured::-webkit-scrollbar-track{
-    background-color: #C0BFC2;
+    background-color: transparent;
     
 }
 .featured::-webkit-scrollbar-thumb{
-    background-color: grey;
+    background-color: #ba7335;
 }
 .featured-group{
     display: grid;

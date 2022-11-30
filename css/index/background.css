@@ -22,6 +22,9 @@
     z-index:4;
     text-align: center;
     gap: 20px;
+    opacity: 0;
+    transform: translateY(100px);
+    animation: fade-in-slide-up forwards .5s .5s ease;
 }
 .header-quote{
     text-transform: uppercase;
@@ -39,4 +42,6 @@
     position: absolute;
     z-index: -1;
     top: 75px;
+    opacity: 0;
+    animation: logo-fade-in .5s .5s forwards ease;
 }

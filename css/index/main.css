@@ -13,7 +13,7 @@ main{
     display: flex;
 }
 .first-image-content{
-    background-image: url("../../img/HOMEPAGE/BACKGROUND\ 1.jpg");
+    background-image: url("../../img/HOMEPAGE/background-content-1.jpg");
     width: 100%;
     height: inherit;
     background-size:cover;
@@ -21,7 +21,7 @@ main{
     position:absolute;
 }
 .second-image-content{
-    background-image: url("../../img/HOMEPAGE/BACKGROUND\ 2.jpg");
+    background-image: url("../../img/HOMEPAGE/background-content-2.jpg");
     width: 100%;
     height: inherit;
     background-size:cover;
@@ -29,7 +29,7 @@ main{
     position:absolute;
 }
 .third-image-content{
-    background-image: url("../../img/HOMEPAGE/BACKGROUND\ 1.jpg");
+    background-image: url("../../img/HOMEPAGE/background-content-3.jpg");
     width: 100%;
     height: inherit;
     background-size:cover;
