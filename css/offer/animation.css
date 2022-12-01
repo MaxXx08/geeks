@@ -6,9 +6,24 @@
     opacity: 0;
     transform: translateX(100px);
 }
-@keyframes loading-logo{
+.fade-in-slide-up-no-forwards{
+    opacity: 0;
+    transform: translateY(100px);
+}
+@keyframes fade-in-slide-up-no-forwards-reverse{
+    from{
+        opacity: 1;
+        transform: translateY(300%);
+    }
     to{
-        transform: rotate(360deg);
+        opacity: 0;
+        transform: translateY(0);
+    }
+}
+@keyframes fade-in-slide-up-no-forwards{
+    to{
+        opacity: 1;
+        transform: translateY(300%);
     }
 }
 @keyframes header-border-animation {

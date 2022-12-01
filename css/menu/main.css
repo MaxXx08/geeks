@@ -33,7 +33,7 @@
     padding: 5px 10px;
     padding-bottom: 11px;
     white-space: nowrap;
-    
+    cursor: pointer;
 }
 .menu-link:hover{
     color:white;

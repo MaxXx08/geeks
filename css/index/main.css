@@ -79,4 +79,26 @@ main{
     bottom: -50px;
     right: -50px;
 }
-
+.logo-spinner{
+    position: relative;
+    display: inline;
+    top: 40%;
+    left: 45%;
+    transform: translate(-50% -50%);
+    width:auto;
+    height: auto;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    transition: 1s;
+    animation: loading-logo 1s infinite ease;
+    
+}
+.logo-spinner img{
+    transition: 1s;
+    animation: loading-logo 2s infinite linear;
+    border-radius: 50%;
+    box-shadow: 0 0 0 10px #222222,
+                0 0 0 20px grey,
+                0 0 0 30px #222222,
+                0 0 0 40px black;
+}
