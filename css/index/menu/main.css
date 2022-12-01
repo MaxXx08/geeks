@@ -25,12 +25,15 @@
 }
 .menu-list{
     margin: 9px 0;
+    width: 150px;
 }
 .menu-link{
     text-decoration: none;
     color: whitesmoke;
-    padding: 10px 20px;
+    padding: 5px 10px;
     padding-bottom: 11px;
+    white-space: nowrap;
+    
 }
 .menu-link:hover{
     color:white;
@@ -40,4 +43,29 @@
     padding: 0;
     margin: 0;
     position: relative;
+}
+.price{
+    position: absolute;        
+    display: flex;
+    align-self: center;
+    transform: translateY(100%);
+    opacity: 0;
+    animation: fade-in-slide-up-no-forwards-reverse .5s forwards ease;
+    transition: .5s;
+}
+.card:hover .price{
+    animation: fade-in-slide-up-no-forwards .5s forwards ease;
+}
+.card:hover img{
+    filter: brightness(30%);
+}
+.card-img-top{
+    transition: .5s;
+}
+.font-price-family{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+.foods > .container{
+    width:90%;
 }
