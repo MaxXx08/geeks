@@ -1,0 +1,43 @@
+.main-menu-parent{
+    display: flex;
+}
+.menu-img{
+    display: flex;
+    height: auto;
+    padding: 20px;
+    width: 100%;
+    background-color: #333333;
+    justify-content: space-evenly;
+    gap: 30px;
+}
+
+.card{
+    width: 200px;
+    background-color: #ba7335;
+}
+.menu-list-parent{    
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+.menu-list{
+    margin: 9px 0;
+}
+.menu-link{
+    text-decoration: none;
+    color: whitesmoke;
+    padding: 10px 20px;
+    padding-bottom: 11px;
+}
+.menu-link:hover{
+    color:white;
+    background-color: #333333;
+}
+.menu{
+    padding: 0;
+    margin: 0;
+    position: relative;
+}
