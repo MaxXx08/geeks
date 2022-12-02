@@ -5,7 +5,7 @@
     justify-content: center
 }
 .bg-cover{
-    background-image: url("../../../img/HOMEPAGE/MAIN.png");
+    background-image: url("../../img/HOMEPAGE/MAIN.png");
     background-size: cover !important;
     filter: brightness(60%) contrast(110%) drop-shadow(-5px 5px 10px black);
     position: absolute;
