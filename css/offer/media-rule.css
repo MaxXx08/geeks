@@ -3,6 +3,7 @@ No media query for `xs` since this is the default in Bootstrap */
 body{
     background-color: #222222;
     color: white;
+    transition: .2s;
 }
 :root{
     --logo-size: 75px;
@@ -36,7 +37,9 @@ main{
     .logo{
         top:50px;
     }
-    
+    .nav-link, .nav-item{
+        background-color: transparent;
+    }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {

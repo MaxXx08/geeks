@@ -80,7 +80,7 @@ main{
     right: -50px;
 }
 .logo-spinner{
-    position: relative;
+    position: absolute;
     display: inline;
     top: 40%;
     left: 45%;
@@ -90,7 +90,7 @@ main{
     background-repeat: no-repeat;
     object-fit: cover;
     transition: 1s;
-    animation: loading-logo 1s infinite ease;
+    animation: loading-logo 3s infinite ease;
     
 }
 .logo-spinner img{

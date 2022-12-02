@@ -26,7 +26,6 @@
 .menu-list{
     margin: 9px 0;
     width: 150px;
-    overflow: hidden;
 }
 .menu-link{
     text-decoration: none;
@@ -37,13 +36,13 @@
     cursor: pointer;
     overflow-x: hidden;
 }
-.menu-link:hover{
-    color:white;
+.menu-link:hover {
+    color:white !important;
+    padding: 10px 20px;
     background-color: #333333;
 }
 .menu{
     padding: 0;
-    margin: 0;
     position: relative;
 }
 .price{

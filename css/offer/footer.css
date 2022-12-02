@@ -1,15 +1,13 @@
 footer{
     background-color: #333333;
     margin-top: 20px;
+    color: grey;
 }
  .bg-grey {
     background: #292929;
  }
  .logo-footer {
     margin-bottom: 40px;
- }
- footer {
-    color: grey;
  }
  .footer-main{
     display: flex;

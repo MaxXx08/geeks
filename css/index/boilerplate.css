@@ -32,5 +32,5 @@ body::-webkit-scrollbar{
     text-justify: inter-word;
 }
 .main-body{
-    display: none;
+    visibility: hidden;
 }
