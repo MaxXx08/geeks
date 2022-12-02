@@ -21,14 +21,15 @@
 <body>
     <nav class="navbar navbar-dark navbar-expand-sm d-flex justify-content-evenly bg-transparent position-absolute">    
         <div class="container-fluid">
-            <button class="navbar-dark navbar-toggler text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler" aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-dark navbar-toggler text-bg-dark" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler3" aria-controls="navbarToggler3" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarToggler">            
+            <div class="collapse navbar-collapse" id="navbarToggler3">            
                     <ul class="navbar-nav d-flex justify-content-between navbar-container">
                         <li class="nav-item"><a href="../index.html" class="nav-link">HOME</a></li>
-                        <li class="nav-item"><a href="menu.html" class="nav-link">MENU</a></li>
-                        <li class="nav-item"><a href="" class="nav-link focusme">OFFERS</a></li>
+                        <li class="nav-item"><a href="menu.html" class="nav-link focusme">MENU</a></li>
+                        <li class="nav-item"><a href="offers.html" class="nav-link">OFFERS</a></li>
+                        <li class="nav-item"><a href="#" class="nav-link light-mode-switch" onclick="lightmode()">LM</a></li>
                     </ul>
             </div>
         </div>
@@ -43,7 +44,7 @@
     </header>
     <main>
         <div class="offer-outside-container">
-            <div class="offer-container">
+            <div class="offer-container first">
                 <ol>
                     <li>Fully air-conditioned</li>
                     <li>Book lover friendly</li>
@@ -54,10 +55,10 @@
             </div>
         </div>
         <div class="offer-outside-container">
-            <div class="offer-container">20% student discount just provide school ID</div>
+            <div class="offer-container second">20% student discount just provide school ID</div>
         </div>
         <div class="offer-outside-container">
-            <div class="offer-container">
+            <div class="offer-container third">
                 <ol>
                     <li>Monopoly</li>
                     <li>Chess</li>
@@ -91,6 +92,8 @@
             </div>
         </div>
     </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="../js/animation.js"></script>
+    <script src="../js/lightmode.js"></script>    
 </body>
 </html>

@@ -20,6 +20,12 @@ body{
 .menu-link{
     padding: 11px 10px;
 }
+.background-container{
+    height: 300px;
+}
+.logo{
+    top:10px;
+}
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     /* body{background-color: blue;} */
@@ -38,6 +44,12 @@ body{
     }
     .menu-link{
         padding: 11px 20px;
+    }
+    .background-container{
+        height: 400px;
+    }
+    .logo{
+        top:50px;
     }
 }
 /* Medium devices (tablets, 768px and up) */

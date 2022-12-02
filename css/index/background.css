@@ -45,3 +45,9 @@
     opacity: 0;
     animation: logo-fade-in .5s .5s forwards ease;
 }
+.background-link{
+    text-decoration: none;
+    color: black;
+    background-color: #BA7335;
+    width: 100px;    
+}

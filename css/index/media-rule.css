@@ -5,7 +5,7 @@ body{
     color: white;
 }
 :root{
-    --logo-size: 100px;
+    --logo-size: 75px;
     --circle-image: 100px;
     --square-image: 200px;
 
@@ -25,6 +25,12 @@ body{
 }
 .text-limit{
     width: 90%;
+}
+.background-container{
+    height: 300px;
+}
+.logo{
+    top:10px;
 }
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
@@ -48,6 +54,12 @@ body{
         position: absolute;
         bottom: 15%;
         right: -15%;
+    }
+    .background-container{
+        height: 400px;
+    }
+    .logo{
+        top:50px;
     }
 }
 /* Medium devices (tablets, 768px and up) */
