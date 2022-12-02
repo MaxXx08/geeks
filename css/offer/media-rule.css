@@ -5,7 +5,7 @@ body{
     color: white;
 }
 :root{
-
+    --logo-size: 75px;
 }
 main{
     display: flex;
@@ -17,11 +17,14 @@ main{
 .logo{
     top:10px;
 }
+.nav-link, .nav-item{
+    background-color: #222222;
+}
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     /* body{background-color: blue;} */
     :root{
-      
+        --logo-size: 75px;
     }
     main{
         display: flex;
@@ -33,6 +36,7 @@ main{
     .logo{
         top:50px;
     }
+    
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {

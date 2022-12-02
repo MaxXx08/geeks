@@ -26,6 +26,7 @@
 .menu-list{
     margin: 9px 0;
     width: 150px;
+    overflow: hidden;
 }
 .menu-link{
     text-decoration: none;
@@ -34,6 +35,7 @@
     padding-bottom: 11px;
     white-space: nowrap;
     cursor: pointer;
+    overflow-x: hidden;
 }
 .menu-link:hover{
     color:white;

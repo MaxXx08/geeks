@@ -1,5 +1,10 @@
 .navbar > ul{
     letter-spacing: 5px;
+    position: relative;
+}
+.nav-item{
+    position: relative;
+    z-index: 10;
 }
 .nav-link{
     color: #f7f7f7;
@@ -9,16 +14,17 @@
 }
 .navbar{    
     width: 100%;
-    z-index: 5;
+    z-index: 20;
 }
 .nav-link{
     padding: 10px;
-    border-radius: 20px;
     filter: opacity(.9);
     font-weight: 500;
+    position: relative;
+    z-index: 10;
 }
 .nav-link:hover{
-    
+    border-radius: 0;
     background-color: white;
     color: black;
 }
@@ -34,6 +40,4 @@
 }
 .nav-link:focus-visible{
     outline: none;
-}
-.light-mode-switch{    
 }
