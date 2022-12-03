@@ -15,7 +15,8 @@
     color: #ba7335;
 }
 .featured-name > h1{
-    filter: drop-shadow(0 0 2px black);
+    filter: drop-shadow(0 0 1px black) !important;
+    filter: brightness(100%) contrast(100%) !important;
     font-weight: 500;
     font-family: 'Great Vibes', cursive;
 }

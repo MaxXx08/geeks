@@ -8,6 +8,9 @@ function lightmode(){
     let menuBackgroundHover = document.querySelectorAll(".light-menu-background-hover");
     let menuBackground = document.querySelectorAll(".light-menu-background");
     let menuCardBackground = document.querySelectorAll(".light-menu-card-background");
+    let footerBackground = document.querySelectorAll(".light-footer-background");
+    let colorOrange = document.querySelectorAll(".light-color-orange");
+    let boxShadow = document.querySelectorAll(".light-box-shadow");
 
     lightBackground.forEach(e=>{
         e.classList.toggle("light-mode-background");    
@@ -30,6 +33,15 @@ function lightmode(){
     menuCardBackground.forEach(e => {
         e.classList.toggle("light-mode-menu-card-background");
     });
+    footerBackground.forEach(e => {
+        e.classList.toggle("light-mode-footer-background");
+    });
+    colorOrange.forEach(e => {
+        e.classList.toggle("light-mode-color-orange");
+    });
+    boxShadow.forEach(e=>{
+        e.classList.toggle("light-mode-box-shadow");
+    })
 }
 function lightmodeswitch(){
     if(!isTrue){

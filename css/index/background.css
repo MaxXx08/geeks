@@ -7,7 +7,7 @@
 .bg-cover{
     background-image: url("../../img/HOMEPAGE/MAIN.png");
     background-size: cover !important;
-    filter: brightness(60%) contrast(110%) drop-shadow(-5px 5px 10px black);
+    filter: brightness(60%) contrast(110%) drop-shadow(0px 0px 10px black);
     position: absolute;
     width: 100%;
     height: inherit;

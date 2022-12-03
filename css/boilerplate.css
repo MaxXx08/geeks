@@ -13,7 +13,10 @@ body{
     color: black !important;
 }
 .light-mode-drop-shadow{
-    filter: drop-shadow(0 0 0 white) !important;
+    filter: brightness(60%) contrast(110%) drop-shadow(0 0 10px white) !important;
+}
+.light-mode-box-shadow{
+    box-shadow: 0 0 5px .1px white !important;
 }
 .light-mode-background{
     background-color: #dad1c2 !important;
@@ -32,6 +35,16 @@ body{
 }
 .light-mode-menu-card-background{
     background-color: #222222 !important;
+}
+.light-mode-footer-background{
+    background-color: #ba7445 !important;
+    color: white !important;
+}
+.light-mode-color-orange{
+    color: white !important;
+}
+.light-mode-color-orange:hover{
+    color:grey !important;
 }
 body::-webkit-scrollbar{
     display: none;
