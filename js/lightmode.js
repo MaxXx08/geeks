@@ -5,6 +5,10 @@ function lightmode(){
     let lightBackground = document.querySelectorAll(".light-background");
     let color = document.querySelectorAll(".light-color");
     let lightMode = document.querySelectorAll(".light-mode");
+    let menuBackgroundHover = document.querySelectorAll(".light-menu-background-hover");
+    let menuBackground = document.querySelectorAll(".light-menu-background");
+    let menuCardBackground = document.querySelectorAll(".light-menu-card-background");
+
     lightBackground.forEach(e=>{
         e.classList.toggle("light-mode-background");    
     })
@@ -17,9 +21,17 @@ function lightmode(){
     lightMode.forEach(e => {
         e.classList.toggle("light-mode-mode");    
     });
-    console.log("WORKING");
+    menuBackgroundHover.forEach(e => {
+        e.classList.toggle("light-mode-menu-background-hover");    
+    });
+    menuBackground.forEach(e=>{
+        e.classList.toggle("light-mode-menu-background");
+    })
+    menuCardBackground.forEach(e => {
+        e.classList.toggle("light-mode-menu-card-background");
+    });
 }
-function lightmodeswitch(num){
+function lightmodeswitch(){
     if(!isTrue){
         document.querySelector(".light-mode-switch").textContent = "DARK MODE";
         isTrue = true;

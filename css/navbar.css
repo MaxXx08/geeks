@@ -23,6 +23,7 @@
     position: relative;
     z-index: 10;
     border-radius: 5%;
+    white-space: nowrap;
 }
 .nav-link:hover{
 
