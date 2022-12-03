@@ -60,6 +60,9 @@ body{
 .menu-list{
     overflow: hidden;
 }
+.offer-main{
+    flex-direction: column;
+}
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) {
     /* body{background-color: blue;} */
@@ -117,6 +120,9 @@ body{
     .menu-list{
         overflow: visible;
     }
+    .offer-main{
+        flex-direction: column;
+    }
 }
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
@@ -152,6 +158,9 @@ body{
     .menu-list{
         overflow: visible;
     }
+    .offer-main{
+        flex-direction: column;
+    }
 }
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
@@ -183,6 +192,9 @@ body{
     }
     .menu-list{
         overflow: visible;
+    }
+    .offer-main{
+        flex-direction: row;
     }
 }
 /* X-Large devices (large desktops, 1200px and up) */
