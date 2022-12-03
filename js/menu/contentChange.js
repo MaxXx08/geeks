@@ -27,8 +27,7 @@ let secondPrice = document.getElementsByClassName("price-second");
 function changeMenu(type, contentNum){
     if(type==0){
         for(let i = 0;i<firstMenuImg.length;i++){
-            firstMenuImg.item(i).src="../../img/firstmenu/"+(menuList[type][contentNum][i].name).toString()  + ".png";
-            console.log(firstMenuImg.item(i).src="../../img/firstmenu/"+(menuList[type][contentNum][i].name).toString()  + ".png");
+            firstMenuImg.item(i).src="../img/firstmenu/"+(menuList[type][contentNum][i].name).toString()  + ".png";
         }
         for(let i = 0;i<firstMenuText.length;i++){
             firstMenuText.item(i).textContent=menuList[type][contentNum][i].name.charAt(0).toUpperCase() + menuList[type][contentNum][i].name.slice(1);
@@ -36,7 +35,7 @@ function changeMenu(type, contentNum){
         }
     }else{
         for(let i = 0;i<secondMenuImg.length;i++){
-            secondMenuImg.item(i).src="../../img/firstmenu/"+(menuList[type][contentNum][i].name).toString() + ".png";
+            secondMenuImg.item(i).src="../img/firstmenu/"+(menuList[type][contentNum][i].name).toString() + ".png";
         }
         for(let i = 0;i<secondMenuText.length;i++){
             secondMenuText.item(i).textContent=(menuList[type][contentNum][i].name).toString().charAt(0).toUpperCase() + (menuList[type][contentNum][i].name).toString().slice(1);
